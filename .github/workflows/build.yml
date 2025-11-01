@@ -24,10 +24,10 @@ jobs:
         run: chmod +x ./gradlew
 
       - name: Build jar
-        run: ./gradlew clean build --no-daemon
+        run: cd optio-loader && ./gradlew clean build --no-daemon
 
       - name: Verify build output
-        run: ls -R build/
+        run: ls -R optio-loader/build/
 
       - name: Upload built jars
         uses: actions/upload-artifact@v4
