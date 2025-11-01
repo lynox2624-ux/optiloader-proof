@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "optiloader",
+  "version": "1.0.0",
+  "name": "OptiLoader Proof",
+  "description": "Fake Fabric layer to let mods run on OptiFine.",
+  "entrypoints": {
+    "main": [
+      "com.optloader.core.OptiLoaderCore"
+    ]
+  },
+  "depends": {
+  },
+  "environment": "client"
+}
