@@ -1,0 +1,8 @@
+{
+  "modid": "optiloader",
+  "name": "OptiLoader",
+  "version": "1.0.0",
+  "description": "A lightweight experimental loader that mimics Fabric behavior for OptiFine users.",
+  "authors": ["Lynox"],
+  "license": "MIT"
+}
