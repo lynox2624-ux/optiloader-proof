@@ -23,11 +23,14 @@ jobs:
       - name: Grant execute permission for gradlew
         run: chmod +x ./gradlew
 
+      - name: Check Gradle version
+        run: ./gradlew --version
+
       - name: Build jar
-        run: cd optio-loader && ./gradlew clean build --no-daemon
+        run: ./gradlew clean build --no-daemon --stacktrace
 
       - name: Verify build output
-        run: ls -R optio-loader/build/
+        run: ls -R build/
 
       - name: Upload built jars
         uses: actions/upload-artifact@v4
