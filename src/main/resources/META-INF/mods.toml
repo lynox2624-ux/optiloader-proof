@@ -1,0 +1,9 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="optiloader"
+version="1.0.0"
+displayName="OptiLoader Proof"
+description="Fake Fabric API loader for OptiFine compatibility"
