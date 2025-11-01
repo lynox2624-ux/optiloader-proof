@@ -1,0 +1,7 @@
+{
+  "modid": "optiloader-proof",
+  "name": "OptiLoader Proof",
+  "version": "1.0.0",
+  "description": "Proof-of-concept loader to bridge Optifine and Fabric.",
+  "authors": ["Lynox"]
+}
